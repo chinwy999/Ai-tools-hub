@@ -52,6 +52,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ar" dir="rtl" suppressHydrationWarning>
       <head>
+        <meta
+          name="google-site-verification"
+          content="j-iHu7oSEMHvRJt9EXUbTqBgAL71liygmOrO5HD72EU"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
