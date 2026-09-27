@@ -12,18 +12,15 @@ export type ChatMessage = {
 
 /** النموذج الأساسي — يمكن تغييره عبر GROQ_MODEL */
 export const PRIMARY_MODEL =
-  process.env.GROQ_MODEL?.trim() || "llama-3.3-70b-versatile";
+  process.env.GROQ_MODEL?.trim() || "openai/gpt-oss-20b";
 
 /**
  * نماذج بديلة تُجرَّب تلقائياً إذا لم يكن النموذج الأساسي متاحاً
  * (بعض النماذج القديمة مثل llama3-70b-8192 تم إيقافها من Groq).
  */
 const FALLBACK_MODELS = [
-  "llama-3.3-70b-versatile",
-  "llama-3.1-70b-versatile",
-  "llama-3.1-8b-instant",
-  "llama3-70b-8192",
   "openai/gpt-oss-20b",
+  "openai/gpt-oss-120b",
 ];
 
 export function getGroqApiKey(): string | null {
