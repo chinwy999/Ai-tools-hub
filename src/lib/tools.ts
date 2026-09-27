@@ -259,5 +259,5 @@ export const SITE = {
   nameAr: "مركز أدوات الذكاء الاصطناعي",
   description:
     "منصة عربية مجانية بالكامل تجمع 5 أدوات ذكاء اصطناعي: توليد النصوص، تلخيص النصوص، الترجمة الفورية، تحسين الكتابة، وتحليل المشاعر.",
-  url: "https://ai-tools-hub.vercel.app",
+  url: "https://ai-tools-hub-six-sage.vercel.app",
 };
